@@ -45,6 +45,7 @@ Project ENVISION aimed to transform the existing digital anesthesia documentatio
 ECMO Reader is an open-source Python program with a graphical user interface designed for managing and visualizing extracorporeal membrane oxygenation (ECMO) data in real-time. Developed specifically for Getinge ECMO devices used at Frankfurt University Hospital, it records and visualizes cyclical measurement data, such as blood temperature, pressure, and pump parameters, in real-time. The primary aim of ECMO Reader is to provide a tool for creating medical datasets and analyzing them to potentially enhance patient outcomes. By documenting treatment events and visualizing measurement data in real-time, the software assists medical staff in recognizing trends and potential complications, allowing for timely intervention. 
  
 **Key Features**: 
+- User-friendly GUI
 - Records and visualizes cyclical measurement data in real-time
 - Allows documentation of custom treatment events (e.g., visitations, oxygenator changes, patient transports, complications)
 - Enables the creation of medical datasets for analysis and potential improvement of patient outcomes
@@ -70,7 +71,7 @@ ECMO Dashboard is a web-based visualization tool developed to display publicly a
 - Visualizes ECMO utilization data on an annual basis from 2006 to 2020 
 - Displays the number of patients and their origins from 2005 to 2021
 - Includes patient forecasts for the years 2022 and 2023
-- Parses data from quality reports consisting of XML files from individual hospitals in Germany
+- Data parsed from quality reports consisting of XML files from individual hospitals in Germany
 - Designed according to the user requirements of medical colleagues at Frankfurt University Hospital
 - Fully anonymized data to ensure compliance with privacy regulations
 
@@ -87,3 +88,22 @@ ECMO Dashboard is a web-based visualization tool developed to display publicly a
 [ECMO Dash](https://ecmo-dash.de/) 
 [ECMO Project](https://ecmo-project.de/)
 [Publication](https://doi.org/10.1007/s10916-024-02068-w)
+
+### Project 4: Evolution of Theranostic Applicator for Microwave Ablation Treatment
+
+#### Description: 
+The project aimed to develop further an MRI-compatible, dual-mode microwave applicator for diagnosis and thermal ablation treatment. This contributes to the advancement of theranostic applications in microwave ablation therapy, enhancing treatment precision and efficacy. The focus was on measuring and evaluating image artifacts caused by the applicator to ensure accurate placement during treatment. MRI images were acquired using Siemens Magnetom Aera 1.5 Tesla with various imaging sequences. 
+
+**Key Responsibilities**: 
+- Creation a MATLAB script to automatically measure applicator artefact in MRI images
+- Measurement and evaluation of image artifacts caused by the microwave applicator 
+- MRI image acquisition using Siemens Magnetom Aera 1.5 Tesla
+- Statistical analysis of artefact measurements
+
+**Technologies Used**: 
+- Siemens Magnetom Aera 1.5 Tesla (MRI scanner) 
+- MATLAB for script development 
+- Microsoft Excel for statistical analysis 
+
+**Project links**:
+[Publication](https://doi.org/10.1515/freq-2022-0088)
