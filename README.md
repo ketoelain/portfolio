@@ -57,12 +57,11 @@ ECMO Dashboard was created using Python and Plotly Dash. The data was parsed, me
 
 You can visit ECMO Dashboard at:
 
-[ECMO Dash][https://ecmo-dash.de/]
+[ECMO Dash](https://ecmo-dash.de/)
 
-[ECMO Project][https://ecmo-project.de/]
+[ECMO Project](https://ecmo-project.de/)
 
-You can also see our publication at:
-[https://doi.org/10.1007/s10916-024-02068-w]
+You can also see our [publication](https://doi.org/10.1007/s10916-024-02068-w).
 
 #### 2 ECMO Reader: an open-source data acquisition and analysis system for extracorporeal membrane oxygenation devices
 This project introduces an open-source Python program with a graphical user interface for managing and visualising extracorporeal membrane oxygenation data in real-time. It was developed for Getinge ECMO devices (CardioHelp, Rotaflow I, Rotaflow II; ECMO devices used at Frankfurt University Hospital) and it allows the cyclical measurement data (blood temperature, pressures, pump parameters etc.) to be recorded and visualized (in real-time) in a structured way. It also enables documentation of custom treatment events (e.g. visitations, oxygenator changes, patient transports, and complications). 
