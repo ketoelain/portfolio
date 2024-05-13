@@ -1,12 +1,18 @@
 # Data Scientist
 
 ### Education
+M.Sc in medical engineering & working on my PhD in theoretical medicine @ Goethe University Frankfurt
 
 ### Work experience
 Data scientist @ University Hospital Frankfurt am Main
+Reseach assistant @ Max Planck Institute for Polymer Research
 
 ### Projects
 #### 1 Web-based Dashboard on ECMO utilization in Germany: An interactive visualization, analyses, and prediction based on real-life data
+##### Description: Interractive dashboard to visualise data on ECMO patients in Germany
+##### Type: Dashboard & data visualisation
+##### Tools: Python, Plotly Dash, Numpy, Pandas
+##### Summary
 The purpose of this project was to create a dashboard to visualise publicly available treatment data on extracorporeal membrane oxygenation (ECMO) in Germany. The data was sourced from the Federal Statistical Office of Germany and from the quality reports of the “Gemeinsame Bundesauschuss” (GBA) and was fully anonymised upon delivery.
 ECMO Dashboard provides visualised information on conducted ECMO runs on annual basis from 2006 to 2020 as well as number of patients and their origins from 2005 to 2021. The dashboard also includes patient forecasts for the years 2022 and 2023. Due to delay in data availability the forecasts lie in the past.
 ECMO Dashboard was created using Python and Plotly Dash. The data was parsed, merged, and processed using Python and Numpy & Pandas libraries. The quality reports consisted of several xml files from each individual hospital in Germany and the data contained therein was parsed using custom Python scripts. The design of the dashboard was created according to the requirements of our medical colleagues at Frankfurt University Hospital. 
