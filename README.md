@@ -43,6 +43,8 @@ Project ENVISION aimed to transform the existing digital anesthesia documentatio
 
 #### Description: 
 ECMO Reader is an open-source Python program with a graphical user interface designed for managing and visualizing extracorporeal membrane oxygenation (ECMO) data in real-time. Developed specifically for Getinge ECMO devices used at Frankfurt University Hospital, it records and visualizes cyclical measurement data, such as blood temperature, pressure, and pump parameters, in real-time. The primary aim of ECMO Reader is to provide a tool for creating medical datasets and analyzing them to potentially enhance patient outcomes. By documenting treatment events and visualizing measurement data in real-time, the software assists medical staff in recognizing trends and potential complications, allowing for timely intervention. 
+
+![Login screen of ECMO Reader](/assets/ecmo_reader_example.png)
  
 **Key Features**: 
 - User-friendly GUI
@@ -66,7 +68,9 @@ ECMO Reader is an open-source Python program with a graphical user interface des
 
 #### Description: 
 ECMO Dashboard is a web-based visualization tool developed to display publicly available treatment data on extracorporeal membrane oxygenation (ECMO) utilization in Germany. The dashboard provides interactive visualizations, analyses, and predictions based on real-life data sourced from the Federal Statistical Office of Germany and quality reports of the “Gemeinsame Bundesauschuss” (GBA), fully anonymized upon delivery.  By visualizing historical data and providing forecasts, the dashboard aids healthcare professionals in understanding past trends and anticipating future demands. 
- 
+
+![Preview of ECMO Dashboard](/assets/ecmo_dash_example.png)
+
 **Key Features**: 
 - Visualizes ECMO utilization data on an annual basis from 2006 to 2020 
 - Displays the number of patients and their origins from 2005 to 2021
@@ -107,3 +111,5 @@ The project aimed to develop further an MRI-compatible, dual-mode microwave appl
 
 **Project links**:
 [Publication](https://doi.org/10.1515/freq-2022-0088)
+
+![Example MRI image from the project](/assets/applicator_image_example.png)
