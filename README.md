@@ -8,6 +8,44 @@ Data scientist @ University Hospital Frankfurt am Main
 Reseach assistant @ Max Planck Institute for Polymer Research
 
 ### Projects
+
+#### Project 1: ENVISION
+
+##### Description: 
+Project ENVISION aimed to transform the existing digital anesthesia documentation tool, Sandman.MD, into an intelligent decision-support system called Sandman. IC. This system was tailored for monitoring, predicting, and treating COVID-19 patients in Intensive Care Units (ICUs). It involved a collaboration between a multidisciplinary public-private consortium and was validated in 13 hospitals across Europe. 
+ 
+Key Responsibilities: 
+ 
+-Coordinated the development of Sandman.IC to meet the requirements of medical partners. 
+-Collaborated closely with the private sector partner for app development and AI experts for system integration. 
+-Managed data collection efforts across clinical partners. 
+-Processed, combined, and anonymized heterogeneous datasets from multiple hospitals. 
+-Harmonized collected data for training machine learning models. 
+
+Technologies Used: 
+ 
+-Sandman.MD (digital anesthesia documentation tool) 
+-AI-driven data analytics suite 
+-Predictive modeling tools 
+-Smart alert functionality 
+
+Achievements: 
+ 
+-Successfully integrated Sandman.IC into the AI-driven data analytics suite. 
+-Validated the system in ICU settings across Europe. 
+-Ensured compliance with GDPR and project requirements for data anonymization and harmonization. 
+
+Project Website: ENVISION ICU (formatted URL) 
+ 
+Additional Information: 
+ 
+-The project was managed and coordinated by the team at Frankfurt University Hospital. 
+-Data was sourced from multiple hospitals for training machine learning models.
+
+
+
+
+
 #### 1 Web-based Dashboard on ECMO utilization in Germany: An interactive visualization, analyses, and prediction based on real-life data
 ##### Description: Interractive dashboard to visualise data on ECMO patients in Germany
 ##### Type: Dashboard & data visualisation
@@ -19,12 +57,12 @@ ECMO Dashboard was created using Python and Plotly Dash. The data was parsed, me
 
 You can visit ECMO Dashboard at:
 
-https://ecmo-dash.de/
+[ECMO Dash][https://ecmo-dash.de/]
 
-https://ecmo-project.de/
+[ECMO Project][https://ecmo-project.de/]
 
 You can also see our publication at:
-https://doi.org/10.1007/s10916-024-02068-w.
+[https://doi.org/10.1007/s10916-024-02068-w]
 
 #### 2 ECMO Reader: an open-source data acquisition and analysis system for extracorporeal membrane oxygenation devices
 This project introduces an open-source Python program with a graphical user interface for managing and visualising extracorporeal membrane oxygenation data in real-time. It was developed for Getinge ECMO devices (CardioHelp, Rotaflow I, Rotaflow II; ECMO devices used at Frankfurt University Hospital) and it allows the cyclical measurement data (blood temperature, pressures, pump parameters etc.) to be recorded and visualized (in real-time) in a structured way. It also enables documentation of custom treatment events (e.g. visitations, oxygenator changes, patient transports, and complications). 
