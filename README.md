@@ -89,14 +89,16 @@ ECMO Dashboard is a web-based visualization tool developed to display publicly a
 - Empowers medical professionals with tools to anticipate future demands and plan accordingly. 
 
 **Project Links**: 
-[ECMO Dash](https://ecmo-dash.de/) 
-[ECMO Project](https://ecmo-project.de/)
-[Publication](https://doi.org/10.1007/s10916-024-02068-w)
+- [ECMO Dash](https://ecmo-dash.de/) 
+- [ECMO Project](https://ecmo-project.de/)
+- [Publication](https://doi.org/10.1007/s10916-024-02068-w)
 
 ### Project 4: Evolution of Theranostic Applicator for Microwave Ablation Treatment
 
 #### Description: 
 The project aimed to develop further an MRI-compatible, dual-mode microwave applicator for diagnosis and thermal ablation treatment. This contributes to the advancement of theranostic applications in microwave ablation therapy, enhancing treatment precision and efficacy. The focus was on measuring and evaluating image artifacts caused by the applicator to ensure accurate placement during treatment. MRI images were acquired using Siemens Magnetom Aera 1.5 Tesla with various imaging sequences. 
+
+![Example MRI image from the project](/assets/applicator_image_example.png)
 
 **Key Responsibilities**: 
 - Creation a MATLAB script to automatically measure applicator artefact in MRI images
@@ -111,5 +113,3 @@ The project aimed to develop further an MRI-compatible, dual-mode microwave appl
 
 **Project links**:
 [Publication](https://doi.org/10.1515/freq-2022-0088)
-
-![Example MRI image from the project](/assets/applicator_image_example.png)
