@@ -11,7 +11,7 @@ Reseach assistant @ Max Planck Institute for Polymer Research
 
 ### Project 1: ENVISION
 
-#### Description: 
+**Description**: 
 Project ENVISION aimed to transform the existing digital anesthesia documentation tool, Sandman.MD, into an intelligent decision-support system called Sandman. IC. This system was tailored for monitoring, predicting, and treating COVID-19 patients in Intensive Care Units (ICUs). It involved a collaboration between a multidisciplinary public-private consortium and was validated in 13 hospitals across Europe. 
  
 **Key Responsibilities**: 
@@ -41,7 +41,7 @@ Project ENVISION aimed to transform the existing digital anesthesia documentatio
 
 ### Project 2: ECMO Reader: an open-source data acquisition and analysis system for extracorporeal membrane oxygenation devices
 
-#### Description: 
+**Description**: 
 ECMO Reader is an open-source Python program with a graphical user interface designed for managing and visualizing extracorporeal membrane oxygenation (ECMO) data in real-time. Developed specifically for Getinge ECMO devices used at Frankfurt University Hospital, it records and visualizes cyclical measurement data, such as blood temperature, pressure, and pump parameters, in real-time. The primary aim of ECMO Reader is to provide a tool for creating medical datasets and analyzing them to potentially enhance patient outcomes. By documenting treatment events and visualizing measurement data in real-time, the software assists medical staff in recognizing trends and potential complications, allowing for timely intervention. 
 
 ![Login screen of ECMO Reader](/assets/ecmo_reader_example.png)
@@ -66,7 +66,7 @@ ECMO Reader is an open-source Python program with a graphical user interface des
 
 ### Project 3: ECMO Dashboard
 
-#### Description: 
+**Description**: 
 ECMO Dashboard is a web-based visualization tool developed to display publicly available treatment data on extracorporeal membrane oxygenation (ECMO) utilization in Germany. The dashboard provides interactive visualizations, analyses, and predictions based on real-life data sourced from the Federal Statistical Office of Germany and quality reports of the “Gemeinsame Bundesauschuss” (GBA), fully anonymized upon delivery.  By visualizing historical data and providing forecasts, the dashboard aids healthcare professionals in understanding past trends and anticipating future demands. 
 
 ![Preview of ECMO Dashboard](/assets/ecmo_dash_example.png)
@@ -95,7 +95,7 @@ ECMO Dashboard is a web-based visualization tool developed to display publicly a
 
 ### Project 4: Evolution of Theranostic Applicator for Microwave Ablation Treatment
 
-#### Description: 
+**Description**: 
 The project aimed to develop further an MRI-compatible, dual-mode microwave applicator for diagnosis and thermal ablation treatment. This contributes to the advancement of theranostic applications in microwave ablation therapy, enhancing treatment precision and efficacy. The focus was on measuring and evaluating image artifacts caused by the applicator to ensure accurate placement during treatment. MRI images were acquired using Siemens Magnetom Aera 1.5 Tesla with various imaging sequences. 
 
 ![Example MRI image from the project](/assets/applicator_image_example.png)
