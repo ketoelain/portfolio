@@ -1,87 +1,89 @@
 # Data Scientist
 
-### Education
+## Education
 M.Sc in medical engineering & working on my PhD in theoretical medicine @ Goethe University Frankfurt
 
-### Work experience
+## Work experience
 Data scientist @ University Hospital Frankfurt am Main
 Reseach assistant @ Max Planck Institute for Polymer Research
 
-### Projects
+## Projects
 
-#### Project 1: ENVISION
+### Project 1: ENVISION
 
-##### Description: 
+#### Description: 
 Project ENVISION aimed to transform the existing digital anesthesia documentation tool, Sandman.MD, into an intelligent decision-support system called Sandman. IC. This system was tailored for monitoring, predicting, and treating COVID-19 patients in Intensive Care Units (ICUs). It involved a collaboration between a multidisciplinary public-private consortium and was validated in 13 hospitals across Europe. 
  
-Key Responsibilities: 
+**Key Responsibilities**: 
+- Coordinated the development of Sandman.IC to meet the requirements of medical partners. 
+- Collaborated closely with the private sector partner for app development and AI experts for system integration. 
+- Managed data collection efforts across clinical partners. 
+- Processed, combined, and anonymized heterogeneous datasets from multiple hospitals. 
+- Harmonized collected data for training machine learning models. 
+
+**Technologies Used**: 
+- Sandman.MD (digital anesthesia documentation tool) 
+- AI-driven data analytics suite 
+- Predictive modeling tools 
+- Smart alert functionality 
+
+**Achievements**: 
+- Successfully integrated Sandman.IC into the AI-driven data analytics suite
+- Validated the system in ICU settings across Europe
+- Validated the system in ICU settings across Europe
+- Ensured compliance with GDPR for data anonymization
+- Creation of a harmonised clinical dataset to be used in the project
+
+**Impact**:
+- Sandman.IC implemented at 13 hospitals across Europe
+
+**Project Website**: [ENVISION ICU](https://www.envision-icu.eu/) 
+
+### Project 2: ECMO Reader: an open-source data acquisition and analysis system for extracorporeal membrane oxygenation devices
+
+#### Description: 
+ECMO Reader is an open-source Python program with a graphical user interface designed for managing and visualizing extracorporeal membrane oxygenation (ECMO) data in real-time. Developed specifically for Getinge ECMO devices used at Frankfurt University Hospital, it records and visualizes cyclical measurement data, such as blood temperature, pressure, and pump parameters, in real-time. The primary aim of ECMO Reader is to provide a tool for creating medical datasets and analyzing them to potentially enhance patient outcomes. By documenting treatment events and visualizing measurement data in real-time, the software assists medical staff in recognizing trends and potential complications, allowing for timely intervention. 
  
--Coordinated the development of Sandman.IC to meet the requirements of medical partners. 
--Collaborated closely with the private sector partner for app development and AI experts for system integration. 
--Managed data collection efforts across clinical partners. 
--Processed, combined, and anonymized heterogeneous datasets from multiple hospitals. 
--Harmonized collected data for training machine learning models. 
-
-Technologies Used: 
+**Key Features**: 
+- Records and visualizes cyclical measurement data in real-time
+- Allows documentation of custom treatment events (e.g., visitations, oxygenator changes, patient transports, complications)
+- Enables the creation of medical datasets for analysis and potential improvement of patient outcomes
+- Facilitates the development of machine learning models for real-time prediction of changes in patient condition
+- Runs on a Raspberry Pi 4B with an integrated touchscreen and includes a lithium-ion battery for seamless operation
  
--Sandman.MD (digital anesthesia documentation tool) 
--AI-driven data analytics suite 
--Predictive modeling tools 
--Smart alert functionality 
+**Technologies Used**: 
+- Python, Tkinter
+- Raspberry Pi 4B with integrated touchscreen 
+- Getinge ECMO devices (CardioHelp, Rotaflow I, Rotaflow II) 
 
-Achievements: 
+**Impact**: 
+- Provides medical staff with real-time insights into patient data, aiding in the early detection of complications
+- Facilitates the development of machine learning models for predictive analytics
+- Enhances patient care by enabling proactive intervention based on data trends
+
+### Project 3: ECMO Dashboard
+
+#### Description: 
+ECMO Dashboard is a web-based visualization tool developed to display publicly available treatment data on extracorporeal membrane oxygenation (ECMO) utilization in Germany. The dashboard provides interactive visualizations, analyses, and predictions based on real-life data sourced from the Federal Statistical Office of Germany and quality reports of the “Gemeinsame Bundesauschuss” (GBA), fully anonymized upon delivery.  By visualizing historical data and providing forecasts, the dashboard aids healthcare professionals in understanding past trends and anticipating future demands. 
  
--Successfully integrated Sandman.IC into the AI-driven data analytics suite. 
--Validated the system in ICU settings across Europe. 
--Ensured compliance with GDPR and project requirements for data anonymization and harmonization. 
+**Key Features**: 
+- Visualizes ECMO utilization data on an annual basis from 2006 to 2020 
+- Displays the number of patients and their origins from 2005 to 2021
+- Includes patient forecasts for the years 2022 and 2023
+- Parses data from quality reports consisting of XML files from individual hospitals in Germany
+- Designed according to the user requirements of medical colleagues at Frankfurt University Hospital
+- Fully anonymized data to ensure compliance with privacy regulations
 
-Project Website: ENVISION ICU (formatted URL) 
- 
-Additional Information: 
- 
--The project was managed and coordinated by the team at Frankfurt University Hospital. 
--Data was sourced from multiple hospitals for training machine learning models.
+**Technologies Used**: 
+- Plotly Dash for web-based interactive visualization 
+- Numpy and Pandas libraries for data merging and processing 
+- Custom Python scripts for parsing XML files 
 
+**Impact**: 
+- Facilitates evidence-based decision-making in healthcare resource allocation. 
+- Empowers medical professionals with tools to anticipate future demands and plan accordingly. 
 
-
-
-
-#### 1 Web-based Dashboard on ECMO utilization in Germany: An interactive visualization, analyses, and prediction based on real-life data
-##### Description: Interractive dashboard to visualise data on ECMO patients in Germany
-##### Type: Dashboard & data visualisation
-##### Tools: Python, Plotly Dash, Numpy, Pandas
-##### Summary
-The purpose of this project was to create a dashboard to visualise publicly available treatment data on extracorporeal membrane oxygenation (ECMO) in Germany. The data was sourced from the Federal Statistical Office of Germany and from the quality reports of the “Gemeinsame Bundesauschuss” (GBA) and was fully anonymised upon delivery.
-ECMO Dashboard provides visualised information on conducted ECMO runs on annual basis from 2006 to 2020 as well as number of patients and their origins from 2005 to 2021. The dashboard also includes patient forecasts for the years 2022 and 2023. Due to delay in data availability the forecasts lie in the past.
-ECMO Dashboard was created using Python and Plotly Dash. The data was parsed, merged, and processed using Python and Numpy & Pandas libraries. The quality reports consisted of several xml files from each individual hospital in Germany and the data contained therein was parsed using custom Python scripts. The design of the dashboard was created according to the requirements of our medical colleagues at Frankfurt University Hospital. 
-
-You can visit ECMO Dashboard at:
-
-[ECMO Dash](https://ecmo-dash.de/)
-
+**Project Links**: 
+[ECMO Dash](https://ecmo-dash.de/) 
 [ECMO Project](https://ecmo-project.de/)
-
-You can also see our [publication](https://doi.org/10.1007/s10916-024-02068-w).
-
-#### 2 ECMO Reader: an open-source data acquisition and analysis system for extracorporeal membrane oxygenation devices
-This project introduces an open-source Python program with a graphical user interface for managing and visualising extracorporeal membrane oxygenation data in real-time. It was developed for Getinge ECMO devices (CardioHelp, Rotaflow I, Rotaflow II; ECMO devices used at Frankfurt University Hospital) and it allows the cyclical measurement data (blood temperature, pressures, pump parameters etc.) to be recorded and visualized (in real-time) in a structured way. It also enables documentation of custom treatment events (e.g. visitations, oxygenator changes, patient transports, and complications). 
-The purpose of this projects is to create a tool that subsequently allows the creation of medical datasets that can be used to analyse and to potentially improve patient outcomes. By documenting treatment events via manual input create end points that can be used in analysing the recorded measurement data. This opens the doors for the creation of machine learning models that can be used in real-time to predict changes in patient condition before their onset.
-The software also visualises the measurement data in real time during the treatment. This in turn potentially allows the medical staff to recognise trends in the data that may hint at approaching complications. This additional help can allow the medical experts to intervene before potential complications have time to clincally manifest. 
-The software runs on a Raspberry Pi 4B with an integrated touchscreen. It includes a lithium ion battery for seamless operation when an external power source is not available. 
-
-#### 3 Project ENVISION
-Project ENVISION was a project involving by a multidisciplinary public-private consortium with the purpose of developing an existing digital tool used at multiple hospitals in Germany (Sandman.MD, a digital anaesthesia documentation tool for surgeries), to an intelligent decision-support system for monitoring, prediction and treatment of COVID-19 patients in ICUs – the Sandman.IC. The Sandman.IC is built to be integrated into an AI-driven data analytics suite with predictive modelling tools and smart alert functionality. The digital tool validation was initiated in intensive care units of 13 hospitals across Europe.
-Our collective efforts were managed and coordinated by our team at Frankfurt University Hospital. My role in our work was to coordinate the development of Sandman.IC according to the requirements and specifications of the medical partners of our project. This involved close cooperation with our private sector partner responsible for the developtment of the app, as well as our AI experts at Tampere University in Finland for the creation and integration of the AI components of the system. 
-The data we used in our project was sourced from multiple hospitals. Another big part of my work involved coordinating and managing the data collection at our clinical partners. This meant processing and combining heterogenous datasets in multiple languages, anonymising the datasets to comply with GDPR and our project's requirements, as well as harmonising the collected data to be used in training our machine learning models.
-
-
-You can check out our project and its results at:
-https://www.envision-icu.eu/.
-
-
-#### 4 Evolution of a theranostic applicator for microwave ablation treatment
-This project was set up to further develop an MRI-compatible, novel dual-mode microwave applicator for diagnosis and thermal ablation treatment. My part of the work involved measuring and evaluating the image artefacts caused by the microwave applicator. This is relevant for the accurate placement of the applicatior during treatment. 
-The MR images were acquired with Siemens Magnetom Aera 1.5 Tesla using several imaging sequences (T1-TSE, T2-TSE, T1-FLASH, T1-VIBE). The artefact measurement was conducted using an automated, custom-made script created in MATLAB. The definition of an image artefact was adopted from the American Society for Testing Materials, defining an artefact as a ±30 % deviation from the median background intensity. The artefact diameters were measured at the widest position along the applicator shaft, near the applicator tip, and along the applicator shaft. The statistical analysis of the measurements was conducted using Microsoft Excel. 
-
-You can find the publication for our work at:
-https://doi.org/10.1515/freq-2022-0088.
+[Publication](https://doi.org/10.1007/s10916-024-02068-w)
